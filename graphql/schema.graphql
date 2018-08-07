@@ -9,7 +9,7 @@ type Query {
   movie(id: Int!): Movie
 }
 
-// Mutation은 Database 상태가 변할 때 사용되는 거
+
 type Mutation {
     addMovie(name: String!, score: Int!): Movie!
 }
