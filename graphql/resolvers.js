@@ -1,7 +1,13 @@
-const resolvers = {
-    Query: {
-        name: () => "byeongman"
-    }
+const byeongman = {
+    name: "Byeongman",
+    age: 24,
+    gender: "male"
 };
 
-export default resolvers;
+const resolvers = {
+  Query: {
+    person: () => byeongman
+  }
+};
+
+ export default resolvers;
